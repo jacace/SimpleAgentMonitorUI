@@ -4,6 +4,10 @@ using System.Windows.Forms;
 
 namespace Common
 {
+
+    /// <summary>
+    /// Entry point
+    /// </summary>
     static class Program
     {
         /// <summary>
