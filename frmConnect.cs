@@ -1,22 +1,12 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
-using System.Security.Cryptography.X509Certificates;
-using System.Net;
-
 using Intel.Manageability.WSManagement;
 using Intel.Manageability.Cim.Typed;
-using Intel.Manageability.Cim;
 using System.Collections.ObjectModel;
-using System.Text.RegularExpressions;
-using Intel.Manageability.Cim.Untyped;
-using Common;
 
-namespace Test
+
+namespace Common
 {
     public partial class frmConnect : Form
     {

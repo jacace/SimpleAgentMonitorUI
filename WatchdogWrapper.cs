@@ -7,6 +7,9 @@ using System.Text;
 
 namespace Common
 {
+    /// <summary>
+    /// Function to interact with the Intel Watchdog
+    /// </summary>
     public class WatchdogWrapper
     {
         private const ushort WATCHDOG_STATE_NOT_STARTED = 1;
@@ -16,6 +19,12 @@ namespace Common
         private const ushort WATCHDOG_STATE_SUSPENDED = 16;
         private const ushort WATCHDOG_STATE_ANY = 255;
 
+        /// <summary>
+        /// Function to list the information of a vPro client
+        /// </summary>
+        /// <param name="client"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public List<WatchdogModel> List(IWSManClient client, string id)
         {
             AMT_AgentPresenceService service = (AMT_AgentPresenceService)AssociationTraversalTypedUtils.GetAssociated(client,
@@ -118,6 +127,9 @@ namespace Common
 
     }
 
+    /// <summary>
+    /// Model to keep Watchdog infromation together
+    /// </summary>
     public class WatchdogModel
     {
         public string State { get; set; }

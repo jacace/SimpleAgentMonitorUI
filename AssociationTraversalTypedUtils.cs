@@ -10,6 +10,9 @@ using Intel.Manageability.Cim.Untyped;
 
 namespace Common
 {
+    /// <summary>
+    /// Custom Exception required by WS-Man
+    /// </summary>
     public class AssociationTraversalTypedUtils
     {
         #region CONSTANTS

@@ -10,6 +10,9 @@ using Intel.Manageability.Cim.Untyped;
 
 namespace Common
 {
+    /// <summary>
+    /// Custom exception required by WS-Man
+    /// </summary>
     public class AssociationTraversalException : Exception
     {
         public AssociationTraversalException(string exceptionString)

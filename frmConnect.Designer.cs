@@ -1,4 +1,4 @@
-﻿namespace Test
+﻿namespace Common
 {
     partial class frmConnect
     {
